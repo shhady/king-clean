@@ -1,4 +1,4 @@
-import { Heebo } from 'next/font/google';
+import { Rubik } from 'next/font/google';
 import { Toaster } from 'react-hot-toast';
 import { CartProvider } from './context/CartContext';
 import { OrderProvider } from './context/OrderContext';
@@ -10,9 +10,11 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Cart from './components/Cart';
 
-const heebo = Heebo({ 
-  subsets: ['hebrew', 'latin'],
-  variable: '--font-heebo',
+const rubik = Rubik({
+  subsets: ['hebrew'],
+  weight: ['400', '500', '700'],
+  display: 'swap',
+  preload: true,
 });
 
 export const metadata = {
@@ -58,7 +60,7 @@ export const viewport = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="he" dir="rtl" className={heebo.variable}>
+    <html lang="he" dir="rtl" className={rubik.variable}>
       <ClerkProvider>
         <UserProvider>
           <body className="min-h-screen flex flex-col bg-gray-50">

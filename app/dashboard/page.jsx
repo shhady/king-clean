@@ -207,7 +207,7 @@ export default function Dashboard() {
               <FiRefreshCcw className="text-xl" />
             </button>
           </div>
-          <select
+          {/* <select
             value={timeRange}
             onChange={(e) => setTimeRange(e.target.value)}
             className="border rounded-lg px-4 py-2"
@@ -215,7 +215,7 @@ export default function Dashboard() {
             <option value="week">שבוע אחרון</option>
             <option value="month">חודש אחרון</option>
             <option value="year">שנה אחרונה</option>
-          </select>
+          </select> */}
         </div>
       </div>
 
@@ -250,9 +250,9 @@ export default function Dashboard() {
           <div className="bg-white p-4 rounded-lg shadow">
             {salesChartData && <Bar options={chartOptions} data={salesChartData} />}
           </div>
-          <div className="bg-white p-4 rounded-lg shadow">
+          {/* <div className="bg-white p-4 rounded-lg shadow">
             {ordersChartData && <Bar options={chartOptions} data={ordersChartData} />}
-          </div>
+          </div> */}
         </div>
 
         {/* Recent Orders & Top Products */}
