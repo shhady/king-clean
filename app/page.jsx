@@ -104,37 +104,7 @@ export default async function Home() {
         </div>
       </section>
 
- {/* Features Section */}
- <section className="py-4 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-2 md:grid-cols-2 gap-8">
-            {/* <div className="text-center p-6 bg-white rounded-xl shadow-sm">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl">🚚</span>
-              </div>
-              <h3 className="text-xl font-semibold mb-2">משלוח חינם</h3>
-              <p className="text-gray-600">בהזמנה מעל ₪200</p>
-            </div> */}
-            <div className="text-center p-6 bg-white rounded-xl shadow-sm">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl">✨</span>
-              </div>
-              <h3 className="text-xl font-semibold mb-2">איכות </h3>
-              <h3 className="text-xl font-semibold mb-2"> מובטחת</h3>
-              <p className="text-gray-600"> החברות המובילות</p>
-            </div>
-            <div className="text-center p-6 bg-white rounded-xl shadow-sm">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl">💯</span>
-              </div>
-              <h3 className="text-xl font-semibold mb-2">שירות </h3>
-              <h3 className="text-xl font-semibold mb-2"> מקצועי</h3>
-
-              <p className="text-gray-600">תמיכה וייעוץ מקצועי</p>
-            </div>
-          </div>
-        </div>
-      </section>
+ 
       {/* Sales Section */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
